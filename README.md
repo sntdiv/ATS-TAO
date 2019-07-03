@@ -23,6 +23,6 @@ The TAO_Centos7_Install.sh file does the following:
 2. Run the scrpit:  (./TAO_Centos7_Install.sh)
 3. Provide input where needed
     -- new username / password
-    -- SQL setup (no root password set, so press <Enter> when asked. Setup new root user and password. You will need this for TAO config.
+    -- SQL setup (no root password set, so press Enter when asked. Setup new SQL root user and password. You will need this for TAO config.
 4. Reboot and browse to the http://<servername>/tao/install directory and configure the TAO settings.
 5. Profit!
