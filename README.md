@@ -1,7 +1,7 @@
 # ATS-TAO
 New TAO Build Script for installation on Centos 7
 
-# Files for TAO 3.2 installation
+### Files for TAO 3.2 installation
 
 The TAO-Centos7 install script should be copied down to the server and run as root. It will pull the rest of the GIT files down and copy them to thier respectable locations.
 
@@ -18,7 +18,7 @@ The TAO_Centos7_Install.sh file does the following:
 - Apache configurations uploaded
 - TAO 3.2 Release Candidate 2 Installation
 
-# Instructions
+### Instructions
 1. Download TAO_Centos7_Install.sh to /root directory and make it executable (chmod +x TAO_Centos7_Install.sh)
 2. Run the scrpit:  (./TAO_Centos7_Install.sh)
 3. Provide input where needed
