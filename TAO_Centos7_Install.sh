@@ -175,9 +175,9 @@ chown -R apache /var/www/html/tao/
 echo "pulling needed files from git"
 cd ~
 mv /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf.orig.bak 
-git clone https://github.com/mblue01/ATSTao3.2.git
-cp ./ATSTao3.2/tao.conf /etc/httpd/conf.d/
-cp ./ATSTao3.2/httpd.conf /etc/httpd/conf/
+git clone https://github.com/sntdiv/ATS-TAO.git
+cp ./ATS-TAO/tao.conf /etc/httpd/conf.d/
+cp ./ATS-TAO/httpd.conf /etc/httpd/conf/
 systemctl restart httpd
 
 cd ~
@@ -190,7 +190,7 @@ cd /var/www/html/tao/
 /usr/local/bin/composer install
 
 echo "Installing MathJax"
-cp ~/ATSTao3.2/mathjax.sh /var/www/html/tao/
+cp ~/ATS-TAO/mathjax.sh /var/www/html/tao/
 cd /var/www/html/tao/
 chmod +x /var/www/html/tao/mathjax.sh
 source /var/www/html/tao/mathjax.sh
