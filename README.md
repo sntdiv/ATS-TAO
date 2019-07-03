@@ -5,8 +5,6 @@ New TAO Build Script for installation on Centos 7
 
 The TAO-Centos7 install script should be copied down to the server and run as root. It will pull the rest of the GIT files down and copy them to thier respectable locations.
 
-Reboot server and ll that is left is to browse to the http://<servername>/tao/install directory and configure the TAO settings.
-  
 The TAO_Centos7_Install.sh file does the following:
 - Yum update
 - Set's timezone to New_York
@@ -26,4 +24,5 @@ The TAO_Centos7_Install.sh file does the following:
 3. Provide input where needed
     -- new username / password
     -- SQL setup (no root password set, so press <Enter> when asked. Setup new root user and password. You will need this for TAO config.
-4. Reboot and profit!
+4. Reboot and browse to the http://<servername>/tao/install directory and configure the TAO settings.
+5. Profit!
